@@ -1,8 +1,8 @@
 name: run main.py
 
-on:
-  schedule:
-    - cron: '*/15 * * * *' # every 15 minutes - recommended
+#on:
+#  schedule:
+#    - cron: '*/15 * * * *' # every 15 minutes - recommended
   workflow_dispatch:
 
 jobs:
